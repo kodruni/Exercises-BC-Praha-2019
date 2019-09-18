@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+  // min-height: 100vh; or this
+  background-image: url("/img/coffee-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  // display:flex; main solution (desktop version)
+  //@media (max-width: 774px) {
+  //background-position: -200px center;}
+  //@media (max-width: 591px) {
+  //background-position: -300pc center;}
+  //@media (max-width: 470px) {
+  //flex-direction: column;
+  //background-position: -300px -20vh;
+  //backround-size: auto 120vh;
+  //background-attachment: fixed;
+
+}
+
+header {
+  display: flex;
+}
+
+//main solution (desktop version)
+// main {                
+//   padding:;
+//   color:;
+//   background-color: ;
+//   flex-basis: 0;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// }
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  padding: 40px;
+  background-color: hsla(180, 2%, 25%, 0.581);
+  text-align: center;
+}
+
+button {
+  width: 10rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: 0.5px solid lightsalmon;
+}

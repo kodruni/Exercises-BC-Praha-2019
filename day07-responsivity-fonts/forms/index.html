@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:400,700,900" />
+  <link rel="stylesheet" href="/forms/style.css" />
+  <title>GroundSite</title>
+</head>
+
+<body>
+  <!-- <form method="GET" action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php">
+    
+    <input type="submit" name="send me cookies" value="Save">
+  
+  </form> -->
+
+  <!--WHAT IS BEING SENT IS THE VALUE-->
+
+  <form method="POST" action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php">
+    
+    <!-- <input type="submit" name="send me cookies" value="Save"> -->
+  
+  <form method="POST" action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php">
+
+    <input type="hidden" name="product_id" value="12345"> <!--value is hidden fromt the user -->
+    <!--<input type="text"> <!--no additional attributes, no name hence not visible on request visualization form -->
+    
+    <div class="input">
+    <input type="text" name="greeting" value="Hello World!"> <!--prints hello world-->
+    </div>
+
+    <input type="submit" name="send me cookies" value="Save">
+    
+    <input type="submit" name="send me cookies" value="Delete">
+    <textarea name="biography" id="" cols="10" rows="1"></textarea> <!--don't put the closing tag on a separete line,
+    will create whitespace-->
+    
+    <label for="want_newsletter_checkbox">Check this</label> <!--you can put label anywhere-->
+    <input type="hidden" name="want_newsletter" value="no">  <!--the next input will overwrite this one-->
+    <input type="checkbox" name="want_newsletter" id="want_newsletter_checkbox" value="yes">  
+    <br> <!--checked by default-->  
+
+    
+    <label for="gender_male">Male</label>
+    <input type="radio" name="gender" value="male" id="gender_male"> <!--usually multiple with the same name but only one can be checked, browser makes sure-->
+    <input type="radio" name="gender" value="female" id="gender_female">
+    <input type="radio" name="gender" value="other" id="gender_other">
+  
+    <select name="" id="">
+      <option value="cz">Czech</option>          <!--dropdown menu, not input, element on its own-->
+      <option value="sk">Slovak</option>
+      <option value="oth">Other</option>
+    </select>
+
+    <label for="">First Name</label>
+    <input type="text" name="personal_info[first_name]" value="Runi" placeholder="first_name">
+    <label for="">Last Name</label>
+    <input type="text" name="personal_info[last_name]" value="BLa" placeholder="last_name">
+
+    <!--autofocus and others-->
+  
+    
+  
+  </form>
+
+
+
+</body>
+
+</html>

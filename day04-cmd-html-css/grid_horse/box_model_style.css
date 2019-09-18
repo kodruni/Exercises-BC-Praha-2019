@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box; /*always use this */
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    background-image: url("grid.png");
+    height: 16rem;
+}
+
+
+.mybox {
+    display: block;
+    background-color: orange;
+    padding: 1rem;
+    margin: 0rem auto;          /*1st value - top, bottom, 2nd value - left,right; horizontal application, centers it*/
+    width: 50vw;                /*50% of the screen*/
+    height: 50vh;
+    
+    
+}

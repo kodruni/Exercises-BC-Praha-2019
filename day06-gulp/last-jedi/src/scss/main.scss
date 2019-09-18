@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+// .nav-container {
+//   display: flex;
+// }
+
+nav {
+  background-color: gray;
+  padding: 0.5em;
+  
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 0 0.25em;
+    }
+}
+
+.content {
+  width: 50rem;
+  border: 1px solid black;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("/img/welcome.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  color: white;
+}
+
+.plot {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+}
+
+.content-box1{
+  display: flex;
+  justify-content: center;
+}
+
+.content-box2 {
+  display: flex;
+}
+
+.poster {
+  padding: 1rem;
+}
+
+.img-poster {
+  width: 200px;
+  height: auto;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("/img/rey-standing.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+}
+
+.content-box3 {
+  display: flex;
+  flex-direction: row;
+   
+  
+}
+
+.img-round {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.img-round1 {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.img-round2 {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
