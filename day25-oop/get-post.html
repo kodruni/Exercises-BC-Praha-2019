@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  
+  <title>GET & POST</title>
+  
+</head>
+<body>
+  <a href="get-post.php?page=list&orderby=name&limit=10">List of movies</a>
+  <a href="get-post.php?page=list&orderby=rating&limit=10">List of ratings</a>
+  <a href="get-post.php?page=list&orderby=rating&limit=1000">List of whatever</a>
+
+    <form action="get-post.php" method="post">
+      <input type="text" name="name" placeholder="name">
+      <br>
+      <input type="text" name="name" placeholder="name">
+      <br>
+      <label for="">
+        <input type="checkbox" name="married" value="1">
+        married
+      </label>
+      <br>
+      <input type="submit" value="send">
+      
+
+    </form>
+</body>
+</html>

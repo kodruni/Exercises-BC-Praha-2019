@@ -75,14 +75,14 @@ nav {
   background-position: center;
   width: 100%;
   height: auto;
-  padding: 2rem;
+  // padding: 0;
 }
 
 .content-box3 {
   display: flex;
   flex-direction: row;
-   
-  
+  justify-content: space-evenly;
+  padding: 7rem 0 2rem; 
 }
 
 .img-round {
@@ -92,13 +92,75 @@ nav {
 }
 
 .img-round1 {
-  width: 80px;
-  height: auto;
+  width: 90px;
+  height: 90;
   border-radius: 50%;
 }
 
 .img-round2 {
-  width: 60px;
-  height: auto;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
+
+.img-round3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid black;
+}
+
+.imdb {
+  background-color: grey;
+  width: 10rem;
+  height: 14rem;
+  margin: 1rem 1rem 0 1rem;
+  border: 1px solid black;
+}
+
+.metacritic {
+  background-color: grey;
+  width: 10rem;
+  height: 15rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.tomatoes {
+  background-color: grey;
+  width: 10rem;
+  height: 17rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.chart-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("/src/img/gallery.jpg");
+  background-size: cover;
+  background-position: center;
+  // width: 100%;
+  // height: 70%;
+  // padding: 2rem;
+}
+

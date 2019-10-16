@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  width: 30vw;
+  
+}
+
+.padlock {
+  height: 8rem;
+}
+

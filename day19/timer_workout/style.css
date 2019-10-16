@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 2em;
+  width: 45%;
+  height: 45%;
+  
+}
+
+.set-timer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 1em;
+  border-radius: 45%;
+  background-color: teal;
+}
+
+.move-up-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.counter {
+  padding: 1em;
+}
